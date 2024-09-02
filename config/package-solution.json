@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "card-reader-client-side-solution",
+    "id": "2d811052-bf51-4e45-ae56-0c165f1e4919",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "card-reader description"
+      },
+      "longDescription": {
+        "default": "card-reader description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "card-reader Feature",
+        "description": "The feature that activates elements of the card-reader solution.",
+        "id": "fdffcaca-16fa-4d33-a69e-0d820cc99c6a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/card-reader.sppkg"
+  }
+}
